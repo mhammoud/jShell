@@ -1,0 +1,1312 @@
++++ASSIGNMENT2 TEAM MEMBER CONTRIBUTION+++
+
+
+
+PART 1) +++SVN CHECKOUT ON YOUR ASSIGNMENT1+++
+A    Assignment2/sprints
+A    Assignment2/sprints/Sprint1Backlog.txt
+A    Assignment2/sprints/Sprint2Backlog.txt
+A    Assignment2/sprints/Sprint3Backlog.txt
+A    Assignment2/sprints/readMeSprints.txt
+A    Assignment2/productBacklog
+A    Assignment2/productBacklog/readMeProductBacklog.txt
+A    Assignment2/productBacklog/productBacklogFor2A.txt
+A    Assignment2/crcCards
+A    Assignment2/crcCards/History.txt
+A    Assignment2/crcCards/MakeDirectory.txt
+A    Assignment2/crcCards/AbstractFile.txt
+A    Assignment2/crcCards/Directory.txt
+A    Assignment2/crcCards/PushDirectory.txt
+A    Assignment2/crcCards/Config.txt
+A    Assignment2/crcCards/Shell.txt
+A    Assignment2/crcCards/Exit.txt
+A    Assignment2/crcCards/readMeForCrcCards.txt
+A    Assignment2/crcCards/ChangeDirectory.txt
+A    Assignment2/crcCards/InputParser.txt
+A    Assignment2/crcCards/Manual.txt
+A    Assignment2/crcCards/Command.txt
+A    Assignment2/crcCards/File.txt
+A    Assignment2/crcCards/ListSegments.txt
+A    Assignment2/crcCards/PrintWorkingDirectory.txt
+A    Assignment2/crcCards/PopDirectory.txt
+A    Assignment2/crcCards/FileSystem.txt
+A    Assignment2/crcCards/Concatenate.txt
+A    Assignment2/crcCards/DirectoryStack.txt
+A    Assignment2/readMeAssignment2A.txt
+A    Assignment2/src
+A    Assignment2/src/directoryFileFoldersPackage
+A    Assignment2/src/directoryFileFoldersPackage/File.java
+A    Assignment2/src/directoryFileFoldersPackage/AbstractFile.java
+A    Assignment2/src/directoryFileFoldersPackage/Directory.java
+A    Assignment2/src/directoryFileFoldersPackage/FileSystem.java
+A    Assignment2/src/directoryFileFoldersPackage/JFileSystem.java
+A    Assignment2/src/test
+A    Assignment2/src/test/HistoryTest.java
+A    Assignment2/src/test/MakeDirectoryTest.java
+A    Assignment2/src/test/PushDirectoryTest.java
+A    Assignment2/src/test/DirectoryTest.java
+A    Assignment2/src/test/ConfigTest.java
+A    Assignment2/src/test/PresentWorkingDirectoryTest.java
+A    Assignment2/src/test/ExitTest.java
+A    Assignment2/src/test/ChangeDirectoryTest.java
+A    Assignment2/src/test/InputParserTest.java
+A    Assignment2/src/test/ManualTest.java
+A    Assignment2/src/test/EchoTest.java
+A    Assignment2/src/test/FileTest.java
+A    Assignment2/src/test/ListSegmentsTest.java
+A    Assignment2/src/test/PopDirectoryTest.java
+A    Assignment2/src/test/ConcatenateTest.java
+A    Assignment2/src/test/DirectoryStackTest.java
+A    Assignment2/src/utils
+A    Assignment2/src/utils/Config.java
+A    Assignment2/src/utils/DirectoryStack.java
+A    Assignment2/src/utils/InputParser.java
+A    Assignment2/src/commands
+A    Assignment2/src/commands/History.java
+A    Assignment2/src/commands/ListSegments.java
+A    Assignment2/src/commands/MakeDirectory.java
+A    Assignment2/src/commands/PopDirectory.java
+A    Assignment2/src/commands/Concatenate.java
+A    Assignment2/src/commands/PushDirectory.java
+A    Assignment2/src/commands/PresentWorkingDirectory.java
+A    Assignment2/src/commands/Exit.java
+A    Assignment2/src/commands/ChangeDirectory.java
+A    Assignment2/src/commands/Manual.java
+A    Assignment2/src/commands/Command.java
+A    Assignment2/src/commands/Echo.java
+A    Assignment2/src/error
+A    Assignment2/src/error/DirectoryAlreadyExistsError.java
+A    Assignment2/src/error/InvalidNameError.java
+A    Assignment2/src/error/InvalidArgumentsError.java
+A    Assignment2/src/error/PathError.java
+A    Assignment2/src/error/CantCreateDirectoryError.java
+A    Assignment2/src/error/DirectoryStackEmpty.java
+A    Assignment2/src/error/Error.java
+A    Assignment2/src/driver
+A    Assignment2/src/driver/JShell.java
+A    Assignment2/src/mocks
+A    Assignment2/src/mocks/MockFileSystem.java
+A    Assignment2/dailyScrumMeetings
+A    Assignment2/dailyScrumMeetings/hammoudmSprint2June17
+A    Assignment2/dailyScrumMeetings/hammoudmSprint2June26
+A    Assignment2/dailyScrumMeetings/zhangbr6Sprint1June11
+A    Assignment2/dailyScrumMeetings/zhangbr6Sprint3June20
+A    Assignment2/dailyScrumMeetings/zhangbr6Sprint1June14
+A    Assignment2/dailyScrumMeetings/chongada1Sprint1June11
+A    Assignment2/dailyScrumMeetings/hammoudmSprint1June11.txt
+A    Assignment2/dailyScrumMeetings/zhangbr6Sprint3June23
+A    Assignment2/dailyScrumMeetings/zhangbr6Sprint2June15
+A    Assignment2/dailyScrumMeetings/chongada1Sprint2June20
+A    Assignment2/dailyScrumMeetings/zhangbr6Sprint2June17
+A    Assignment2/dailyScrumMeetings/chongada1Sprint1June14
+A    Assignment2/dailyScrumMeetings/zhangbr6Sprint3June25
+A    Assignment2/dailyScrumMeetings/chongada1Sprint3June23
+A    Assignment2/dailyScrumMeetings/zhangbr6Sprint3June27
+A    Assignment2/dailyScrumMeetings/chongada1Sprint2June17
+A    Assignment2/dailyScrumMeetings/hammoudmSprint1June8
+A    Assignment2/dailyScrumMeetings/chongada1Sprint3June26
+A    Assignment2/dailyScrumMeetings/yanjuli1Sprint2June20
+A    Assignment2/dailyScrumMeetings/readMeDailyScrumMeetings.txt
+A    Assignment2/dailyScrumMeetings/yanjuli1Sprint1June8.txt
+A    Assignment2/dailyScrumMeetings/yanjuli1Sprint2June14
+A    Assignment2/dailyScrumMeetings/yanjuli1Sprint3June23
+A    Assignment2/dailyScrumMeetings/yanjuli1Sprint2June17
+A    Assignment2/dailyScrumMeetings/yanjuli1Sprint3June26
+A    Assignment2/dailyScrumMeetings/hammoudmSprint2June20
+A    Assignment2/dailyScrumMeetings/hammoudmSprint1June14
+A    Assignment2/dailyScrumMeetings/yanjuli1Sprint1June11.txt
+A    Assignment2/dailyScrumMeetings/chongada1Sprint1June8
+A    Assignment2/dailyScrumMeetings/hammoudmSprint2June23
+Checked out revision 271.
+
+
+
+PART 2) +++SVN COMMIT LOGS ARE+++
+Marks Deductions here (-.5 max): 0
+------------------------------------------------------------------------
+r271 | chongada@UTORONTO.CA | 2016-06-27 23:19:37 -0400 (Mon, 27 Jun 2016) | 1 line
+
+added sprint june 26
+------------------------------------------------------------------------
+r270 | hammoudm@UTORONTO.CA | 2016-06-27 22:49:46 -0400 (Mon, 27 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r269 | zhangbr6@UTORONTO.CA | 2016-06-27 22:07:28 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Improved variable names for Manual
+------------------------------------------------------------------------
+r268 | zhangbr6@UTORONTO.CA | 2016-06-27 22:03:18 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Updated crcCard for AbstractFile.
+------------------------------------------------------------------------
+r267 | zhangbr6@UTORONTO.CA | 2016-06-27 22:02:52 -0400 (Mon, 27 Jun 2016) | 2 lines
+
+Added parent Directory into AbstractFile.
+Updated DirectoryTest documentation to match implementation.
+------------------------------------------------------------------------
+r266 | zhangbr6@UTORONTO.CA | 2016-06-27 21:53:16 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Documented JShell.
+------------------------------------------------------------------------
+r265 | zhangbr6@UTORONTO.CA | 2016-06-27 18:26:53 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Fixed broken code in Config test.
+------------------------------------------------------------------------
+r264 | yanjuli1@UTORONTO.CA | 2016-06-27 18:16:17 -0400 (Mon, 27 Jun 2016) | 1 line
+
+scrum for June 26
+------------------------------------------------------------------------
+r263 | chongada@UTORONTO.CA | 2016-06-27 12:09:05 -0400 (Mon, 27 Jun 2016) | 1 line
+
+separated test cases for configTest unit test
+------------------------------------------------------------------------
+r262 | yanjuli1@UTORONTO.CA | 2016-06-27 12:05:22 -0400 (Mon, 27 Jun 2016) | 1 line
+
+fixed ManualTest to not use hard coded manual strings
+------------------------------------------------------------------------
+r261 | chongada@UTORONTO.CA | 2016-06-27 12:03:08 -0400 (Mon, 27 Jun 2016) | 1 line
+
+added june23 sprint
+------------------------------------------------------------------------
+r260 | chongada@UTORONTO.CA | 2016-06-27 12:01:05 -0400 (Mon, 27 Jun 2016) | 1 line
+
+added ConfigTest
+------------------------------------------------------------------------
+r259 | zhangbr6@UTORONTO.CA | 2016-06-27 10:40:44 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Improved documentation for Manual
+------------------------------------------------------------------------
+r258 | zhangbr6@UTORONTO.CA | 2016-06-27 10:23:23 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Set "." and ".." as invalid names for File/Directory.
+------------------------------------------------------------------------
+r257 | zhangbr6@UTORONTO.CA | 2016-06-27 09:54:33 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Fixed naming problem in FileSystem
+------------------------------------------------------------------------
+r256 | zhangbr6@UTORONTO.CA | 2016-06-27 09:50:24 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added scrum meeting for June 27.
+------------------------------------------------------------------------
+r255 | zhangbr6@UTORONTO.CA | 2016-06-27 09:44:18 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Add PresentWorkingDirectory unit test.
+------------------------------------------------------------------------
+r254 | zhangbr6@UTORONTO.CA | 2016-06-27 09:40:17 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added PopDirectory and PushDirectory unit tests.
+------------------------------------------------------------------------
+r253 | zhangbr6@UTORONTO.CA | 2016-06-27 03:06:01 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Renamed to Sprint3
+------------------------------------------------------------------------
+r252 | zhangbr6@UTORONTO.CA | 2016-06-27 03:05:47 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Renamed to Sprint3
+------------------------------------------------------------------------
+r251 | zhangbr6@UTORONTO.CA | 2016-06-27 03:05:33 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Renamed to Sprint3
+------------------------------------------------------------------------
+r250 | zhangbr6@UTORONTO.CA | 2016-06-27 03:04:01 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Removed ConfigTest. Not necessary to test.
+------------------------------------------------------------------------
+r249 | chongada@UTORONTO.CA | 2016-06-27 01:12:20 -0400 (Mon, 27 Jun 2016) | 1 line
+
+fixed some errors from conflicts in Directory
+------------------------------------------------------------------------
+r248 | chongada@UTORONTO.CA | 2016-06-27 00:53:17 -0400 (Mon, 27 Jun 2016) | 1 line
+
+put back some documentation that was accidentally deleted
+------------------------------------------------------------------------
+r247 | chongada@UTORONTO.CA | 2016-06-27 00:51:14 -0400 (Mon, 27 Jun 2016) | 1 line
+
+added some documentation for Directory
+------------------------------------------------------------------------
+r246 | zhangbr6@UTORONTO.CA | 2016-06-27 00:04:23 -0400 (Mon, 27 Jun 2016) | 3 lines
+
+Refactor createSubFolder methods in MockFileSystem/unit tests.
+Added ConcatenateTest.
+
+------------------------------------------------------------------------
+r245 | zhangbr6@UTORONTO.CA | 2016-06-26 23:52:59 -0400 (Sun, 26 Jun 2016) | 2 lines
+
+Improved documentation for multiple commands, Directory, File, JFileSystem.
+Added AbstractFile.
+------------------------------------------------------------------------
+r244 | chongada@UTORONTO.CA | 2016-06-26 23:44:10 -0400 (Sun, 26 Jun 2016) | 1 line
+
+changed pushd to use local fileSystem instead of calling JFileSystem.getSystem (it was already called and set in constructor)
+------------------------------------------------------------------------
+r243 | zhangbr6@UTORONTO.CA | 2016-06-26 23:30:04 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Updated crcCards to include AbstractFile.
+------------------------------------------------------------------------
+r242 | yanjuli1@UTORONTO.CA | 2016-06-26 23:21:43 -0400 (Sun, 26 Jun 2016) | 1 line
+
+fixed string for one of the commands
+------------------------------------------------------------------------
+r241 | chongada@UTORONTO.CA | 2016-06-26 22:46:18 -0400 (Sun, 26 Jun 2016) | 1 line
+
+added and changed some documentation for Directory
+------------------------------------------------------------------------
+r240 | yanjuli1@UTORONTO.CA | 2016-06-26 21:28:54 -0400 (Sun, 26 Jun 2016) | 1 line
+
+removed JFileSystemTest
+------------------------------------------------------------------------
+r239 | yanjuli1@UTORONTO.CA | 2016-06-26 21:00:21 -0400 (Sun, 26 Jun 2016) | 1 line
+
+fixed conflict
+------------------------------------------------------------------------
+r238 | yanjuli1@UTORONTO.CA | 2016-06-26 20:51:13 -0400 (Sun, 26 Jun 2016) | 1 line
+
+completed FileTest
+------------------------------------------------------------------------
+r237 | hammoudm@UTORONTO.CA | 2016-06-26 20:04:39 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Completed test cases for directory stack.
+------------------------------------------------------------------------
+r236 | yanjuli1@UTORONTO.CA | 2016-06-26 19:56:00 -0400 (Sun, 26 Jun 2016) | 2 lines
+
+added more test cases for manual
+fixed manual test cases to be clearer 
+------------------------------------------------------------------------
+r235 | yanjuli1@UTORONTO.CA | 2016-06-26 19:41:50 -0400 (Sun, 26 Jun 2016) | 1 line
+
+added in documentation 
+------------------------------------------------------------------------
+r234 | hammoudm@UTORONTO.CA | 2016-06-26 14:54:34 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Updated HistoryTest wth a new test case.
+------------------------------------------------------------------------
+r233 | yanjuli1@UTORONTO.CA | 2016-06-26 11:02:27 -0400 (Sun, 26 Jun 2016) | 1 line
+
+fixed info for Honor section
+------------------------------------------------------------------------
+r232 | yanjuli1@UTORONTO.CA | 2016-06-26 03:39:28 -0400 (Sun, 26 Jun 2016) | 2 lines
+
+fixed formatting
+completed documentation for commands
+------------------------------------------------------------------------
+r231 | zhangbr6@UTORONTO.CA | 2016-06-26 01:50:53 -0400 (Sun, 26 Jun 2016) | 3 lines
+
+Add tests to implement
+Added documentation in JFileSystem
+
+------------------------------------------------------------------------
+r230 | yanjuli1@UTORONTO.CA | 2016-06-26 01:45:33 -0400 (Sun, 26 Jun 2016) | 1 line
+
+fixed conflict with outdated code
+------------------------------------------------------------------------
+r229 | chongada@UTORONTO.CA | 2016-06-26 01:17:50 -0400 (Sun, 26 Jun 2016) | 1 line
+
+added honor code
+------------------------------------------------------------------------
+r228 | yanjuli1@UTORONTO.CA | 2016-06-26 01:16:39 -0400 (Sun, 26 Jun 2016) | 1 line
+
+added Honor Code segment
+------------------------------------------------------------------------
+r227 | zhangbr6@UTORONTO.CA | 2016-06-26 00:54:53 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Found small spacing problem in PushDirectory man message.
+------------------------------------------------------------------------
+r226 | zhangbr6@UTORONTO.CA | 2016-06-26 00:54:36 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added Manual unit test.
+------------------------------------------------------------------------
+r225 | zhangbr6@UTORONTO.CA | 2016-06-26 00:46:19 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Fixed indenting for Manual messages.
+------------------------------------------------------------------------
+r224 | zhangbr6@UTORONTO.CA | 2016-06-26 00:37:47 -0400 (Sun, 26 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r223 | chongada@UTORONTO.CA | 2016-06-25 23:09:06 -0400 (Sat, 25 Jun 2016) | 1 line
+
+changed manual example for ListSegments
+------------------------------------------------------------------------
+r222 | yanjuli1@UTORONTO.CA | 2016-06-25 23:04:55 -0400 (Sat, 25 Jun 2016) | 1 line
+
+fixed formatting
+------------------------------------------------------------------------
+r221 | chongada@UTORONTO.CA | 2016-06-25 22:58:29 -0400 (Sat, 25 Jun 2016) | 1 line
+
+added manual for PopDirectory
+------------------------------------------------------------------------
+r220 | yanjuli1@UTORONTO.CA | 2016-06-25 22:52:55 -0400 (Sat, 25 Jun 2016) | 1 line
+
+completed man strings for multiple commands
+------------------------------------------------------------------------
+r219 | zhangbr6@UTORONTO.CA | 2016-06-25 22:52:37 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Updated Scrum meeting.
+------------------------------------------------------------------------
+r218 | zhangbr6@UTORONTO.CA | 2016-06-25 22:50:09 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added June 25 Scrum meeting.
+------------------------------------------------------------------------
+r217 | chongada@UTORONTO.CA | 2016-06-25 22:48:02 -0400 (Sat, 25 Jun 2016) | 1 line
+
+small fix to PushDirectory manual
+------------------------------------------------------------------------
+r216 | chongada@UTORONTO.CA | 2016-06-25 22:36:46 -0400 (Sat, 25 Jun 2016) | 1 line
+
+small change to manual of PushDirectory
+------------------------------------------------------------------------
+r215 | chongada@UTORONTO.CA | 2016-06-25 22:33:09 -0400 (Sat, 25 Jun 2016) | 1 line
+
+small fix to manual of PushDirectory
+------------------------------------------------------------------------
+r214 | chongada@UTORONTO.CA | 2016-06-25 22:06:25 -0400 (Sat, 25 Jun 2016) | 1 line
+
+added june20 sprint
+------------------------------------------------------------------------
+r213 | chongada@UTORONTO.CA | 2016-06-25 22:04:25 -0400 (Sat, 25 Jun 2016) | 1 line
+
+fixed examples in manuals for ListSegments and PushDirectory
+------------------------------------------------------------------------
+r212 | chongada@UTORONTO.CA | 2016-06-25 22:01:56 -0400 (Sat, 25 Jun 2016) | 2 lines
+
+added manual to PushDirectory
+small edit to manual in ListSegments
+------------------------------------------------------------------------
+r211 | yanjuli1@UTORONTO.CA | 2016-06-25 21:45:56 -0400 (Sat, 25 Jun 2016) | 1 line
+
+added in man string for exit
+------------------------------------------------------------------------
+r210 | chongada@UTORONTO.CA | 2016-06-25 21:27:48 -0400 (Sat, 25 Jun 2016) | 1 line
+
+edited manual for ListSegments
+------------------------------------------------------------------------
+r209 | chongada@UTORONTO.CA | 2016-06-25 21:26:17 -0400 (Sat, 25 Jun 2016) | 1 line
+
+small edit to manual of ListSegments
+------------------------------------------------------------------------
+r208 | chongada@UTORONTO.CA | 2016-06-25 20:43:56 -0400 (Sat, 25 Jun 2016) | 1 line
+
+small edit to manual of ListSegments and Manual
+------------------------------------------------------------------------
+r207 | chongada@UTORONTO.CA | 2016-06-25 19:37:27 -0400 (Sat, 25 Jun 2016) | 1 line
+
+edited echo manual
+------------------------------------------------------------------------
+r206 | chongada@UTORONTO.CA | 2016-06-25 19:22:32 -0400 (Sat, 25 Jun 2016) | 1 line
+
+changed the Echo manual
+------------------------------------------------------------------------
+r205 | yanjuli1@UTORONTO.CA | 2016-06-25 19:09:26 -0400 (Sat, 25 Jun 2016) | 2 lines
+
+added in cd man string
+updated manual test for cd man string
+------------------------------------------------------------------------
+r204 | chongada@UTORONTO.CA | 2016-06-25 19:01:32 -0400 (Sat, 25 Jun 2016) | 1 line
+
+edited the manual for Manual
+------------------------------------------------------------------------
+r203 | chongada@UTORONTO.CA | 2016-06-25 18:55:12 -0400 (Sat, 25 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r202 | chongada@UTORONTO.CA | 2016-06-25 18:54:03 -0400 (Sat, 25 Jun 2016) | 1 line
+
+edited the manual for ListSegments
+------------------------------------------------------------------------
+r201 | chongada@UTORONTO.CA | 2016-06-25 18:09:56 -0400 (Sat, 25 Jun 2016) | 1 line
+
+small edit to man message of Echo
+------------------------------------------------------------------------
+r200 | chongada@UTORONTO.CA | 2016-06-25 18:08:36 -0400 (Sat, 25 Jun 2016) | 1 line
+
+created man message for Echo
+------------------------------------------------------------------------
+r199 | yanjuli1@UTORONTO.CA | 2016-06-25 18:04:48 -0400 (Sat, 25 Jun 2016) | 1 line
+
+fixed manual testing
+------------------------------------------------------------------------
+r198 | yanjuli1@UTORONTO.CA | 2016-06-25 17:53:29 -0400 (Sat, 25 Jun 2016) | 1 line
+
+fixed getManMessage to be hidden 
+------------------------------------------------------------------------
+r197 | zhangbr6@UTORONTO.CA | 2016-06-24 23:28:19 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Fixed documentation.
+------------------------------------------------------------------------
+r196 | zhangbr6@UTORONTO.CA | 2016-06-24 23:25:47 -0400 (Fri, 24 Jun 2016) | 2 lines
+
+Finished MakeDirectory tests. Added Manual Test.
+Fixed Manual command to actually work as intended.
+------------------------------------------------------------------------
+r195 | chongada@UTORONTO.CA | 2016-06-24 21:05:06 -0400 (Fri, 24 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r194 | chongada@UTORONTO.CA | 2016-06-24 20:58:30 -0400 (Fri, 24 Jun 2016) | 1 line
+
+added sprint for june 17
+------------------------------------------------------------------------
+r193 | chongada@UTORONTO.CA | 2016-06-24 20:57:15 -0400 (Fri, 24 Jun 2016) | 1 line
+
+added in june 14 sprint
+------------------------------------------------------------------------
+r192 | chongada@UTORONTO.CA | 2016-06-24 20:54:14 -0400 (Fri, 24 Jun 2016) | 1 line
+
+added manual for Manual
+------------------------------------------------------------------------
+r191 | chongada@UTORONTO.CA | 2016-06-24 18:53:41 -0400 (Fri, 24 Jun 2016) | 1 line
+
+fixed formatting of manual for ListSegments
+------------------------------------------------------------------------
+r190 | chongada@UTORONTO.CA | 2016-06-24 18:38:42 -0400 (Fri, 24 Jun 2016) | 1 line
+
+added example to manual for ListSegments
+------------------------------------------------------------------------
+r189 | chongada@UTORONTO.CA | 2016-06-24 18:26:40 -0400 (Fri, 24 Jun 2016) | 1 line
+
+fixed manual for ListSegments
+------------------------------------------------------------------------
+r188 | chongada@UTORONTO.CA | 2016-06-24 18:02:33 -0400 (Fri, 24 Jun 2016) | 1 line
+
+added manual to ListSegments
+------------------------------------------------------------------------
+r187 | zhangbr6@UTORONTO.CA | 2016-06-24 16:22:04 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Updated ListSegments to print output for each path.
+------------------------------------------------------------------------
+r186 | zhangbr6@UTORONTO.CA | 2016-06-24 15:49:25 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Improved documentation.
+------------------------------------------------------------------------
+r185 | zhangbr6@UTORONTO.CA | 2016-06-24 14:19:39 -0400 (Fri, 24 Jun 2016) | 2 lines
+
+Re-added MockFileSystem.
+Updated test cases.
+------------------------------------------------------------------------
+r184 | zhangbr6@UTORONTO.CA | 2016-06-24 04:24:58 -0400 (Fri, 24 Jun 2016) | 2 lines
+
+Improved documentation for Echo and ListSegments
+
+------------------------------------------------------------------------
+r183 | zhangbr6@UTORONTO.CA | 2016-06-24 04:23:33 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Add ListSegmentsTest
+------------------------------------------------------------------------
+r182 | zhangbr6@UTORONTO.CA | 2016-06-24 03:18:33 -0400 (Fri, 24 Jun 2016) | 2 lines
+
+Previous commit updated classes to use JFileSystem which implements the FileSystem interface.
+This commit removes the MockFileSystem and updates the testcases.
+------------------------------------------------------------------------
+r181 | zhangbr6@UTORONTO.CA | 2016-06-24 03:17:17 -0400 (Fri, 24 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r180 | zhangbr6@UTORONTO.CA | 2016-06-24 03:15:43 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Updated crcCards
+------------------------------------------------------------------------
+r179 | yanjuli1@UTORONTO.CA | 2016-06-23 19:31:23 -0400 (Thu, 23 Jun 2016) | 1 line
+
+added in June 23 sprint
+------------------------------------------------------------------------
+r178 | zhangbr6@UTORONTO.CA | 2016-06-23 05:29:47 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Created MockFileSystem.
+------------------------------------------------------------------------
+r177 | zhangbr6@UTORONTO.CA | 2016-06-23 04:06:28 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added scrum meeting June 23.
+------------------------------------------------------------------------
+r176 | zhangbr6@UTORONTO.CA | 2016-06-23 04:05:14 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed FileType.java because it is unnecesssary for A2.
+------------------------------------------------------------------------
+r175 | zhangbr6@UTORONTO.CA | 2016-06-23 04:04:51 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed Drive.java because it is unnecessary for A2.
+------------------------------------------------------------------------
+r174 | zhangbr6@UTORONTO.CA | 2016-06-23 04:04:24 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed Folder because it is was unnecessary for A2.
+------------------------------------------------------------------------
+r173 | zhangbr6@UTORONTO.CA | 2016-06-23 04:03:57 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed Mv since we didn't implement this Command in A2.
+------------------------------------------------------------------------
+r172 | zhangbr6@UTORONTO.CA | 2016-06-23 04:03:38 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Renamed Pwd to PrintWorkingDirectory
+------------------------------------------------------------------------
+r171 | zhangbr6@UTORONTO.CA | 2016-06-23 04:03:14 -0400 (Thu, 23 Jun 2016) | 2 lines
+
+Previous commit renamed Ls to ListSegments.
+Renamed Mkdir to MakeDirectory.
+------------------------------------------------------------------------
+r170 | zhangbr6@UTORONTO.CA | 2016-06-23 04:02:38 -0400 (Thu, 23 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r169 | zhangbr6@UTORONTO.CA | 2016-06-23 04:02:22 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed cp because we didn't implement this command for A2.
+------------------------------------------------------------------------
+r168 | zhangbr6@UTORONTO.CA | 2016-06-23 04:01:55 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Renamed to Concatenate
+------------------------------------------------------------------------
+r167 | zhangbr6@UTORONTO.CA | 2016-06-23 04:01:29 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed TextFile and VideoFile
+------------------------------------------------------------------------
+r166 | zhangbr6@UTORONTO.CA | 2016-06-23 04:00:54 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed ImgFile
+------------------------------------------------------------------------
+r165 | zhangbr6@UTORONTO.CA | 2016-06-23 04:00:43 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed Application card.
+------------------------------------------------------------------------
+r164 | zhangbr6@UTORONTO.CA | 2016-06-23 03:53:22 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Renamed FileSystem to JFileSystem.
+------------------------------------------------------------------------
+r163 | zhangbr6@UTORONTO.CA | 2016-06-22 19:08:43 -0400 (Wed, 22 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r162 | hammoudm@UTORONTO.CA | 2016-06-21 23:44:37 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added my tasks.
+------------------------------------------------------------------------
+r161 | hammoudm@UTORONTO.CA | 2016-06-21 23:42:30 -0400 (Tue, 21 Jun 2016) | 1 line
+
+forgot to commit my sprint - june 20.
+------------------------------------------------------------------------
+r160 | zhangbr6@UTORONTO.CA | 2016-06-21 14:08:56 -0400 (Tue, 21 Jun 2016) | 2 lines
+
+Fixed small bug in Echo.
+Updated EchoTest test cases.
+------------------------------------------------------------------------
+r159 | chongada@UTORONTO.CA | 2016-06-21 12:45:37 -0400 (Tue, 21 Jun 2016) | 1 line
+
+added in tasks
+------------------------------------------------------------------------
+r158 | chongada@UTORONTO.CA | 2016-06-21 09:32:09 -0400 (Tue, 21 Jun 2016) | 1 line
+
+added EchoTest (unfinished)
+------------------------------------------------------------------------
+r157 | zhangbr6@UTORONTO.CA | 2016-06-21 02:29:20 -0400 (Tue, 21 Jun 2016) | 2 lines
+
+Changed all commands to create command by using hashtable in config and creating an instance of the class from the keyword the user specifies.
+Fixed small problem with getDirectoryFromPath
+------------------------------------------------------------------------
+r156 | zhangbr6@UTORONTO.CA | 2016-06-21 02:24:07 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Renamed to InvalidNameError
+------------------------------------------------------------------------
+r155 | yanjuli1@UTORONTO.CA | 2016-06-21 00:53:04 -0400 (Tue, 21 Jun 2016) | 1 line
+
+added in sprint 3 tasks
+------------------------------------------------------------------------
+r154 | zhangbr6@UTORONTO.CA | 2016-06-21 00:52:24 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Change parseInput to be public and updated InputParserTest.
+------------------------------------------------------------------------
+r153 | zhangbr6@UTORONTO.CA | 2016-06-21 00:51:30 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Handled invalid arguments for Echo.
+------------------------------------------------------------------------
+r152 | zhangbr6@UTORONTO.CA | 2016-06-21 00:51:05 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Add getArgs() to ChangeDirectory.
+------------------------------------------------------------------------
+r151 | zhangbr6@UTORONTO.CA | 2016-06-21 00:49:58 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added Sprint3Backlog.
+------------------------------------------------------------------------
+r150 | yanjuli1@UTORONTO.CA | 2016-06-20 23:56:30 -0400 (Mon, 20 Jun 2016) | 1 line
+
+added scrum
+------------------------------------------------------------------------
+r149 | zhangbr6@UTORONTO.CA | 2016-06-20 18:02:04 -0400 (Mon, 20 Jun 2016) | 2 lines
+
+Fixed function calls in DirectoryTest.
+Removed unused import in DirectoryStack.
+------------------------------------------------------------------------
+r148 | zhangbr6@UTORONTO.CA | 2016-06-20 17:10:28 -0400 (Mon, 20 Jun 2016) | 1 line
+
+More refactoring. Removing unnecessary FileSystem parameters and made getDirectoryFromPath static.
+------------------------------------------------------------------------
+r147 | zhangbr6@UTORONTO.CA | 2016-06-20 16:46:54 -0400 (Mon, 20 Jun 2016) | 2 lines
+
+Added new FileSystem class as Singleton.
+Changes in all classes to accommodate new FileSystem class.
+------------------------------------------------------------------------
+r146 | zhangbr6@UTORONTO.CA | 2016-06-20 16:04:16 -0400 (Mon, 20 Jun 2016) | 1 line
+
+Updated code to use Config.
+------------------------------------------------------------------------
+r145 | zhangbr6@UTORONTO.CA | 2016-06-20 11:37:54 -0400 (Mon, 20 Jun 2016) | 1 line
+
+Add Config.
+------------------------------------------------------------------------
+r144 | zhangbr6@UTORONTO.CA | 2016-06-20 11:37:37 -0400 (Mon, 20 Jun 2016) | 1 line
+
+Remove Keywords.
+------------------------------------------------------------------------
+r143 | zhangbr6@UTORONTO.CA | 2016-06-20 10:44:19 -0400 (Mon, 20 Jun 2016) | 1 line
+
+Add more to plan to do.
+------------------------------------------------------------------------
+r142 | zhangbr6@UTORONTO.CA | 2016-06-20 10:33:31 -0400 (Mon, 20 Jun 2016) | 1 line
+
+Remove EchoToFile
+------------------------------------------------------------------------
+r141 | zhangbr6@UTORONTO.CA | 2016-06-20 10:28:25 -0400 (Mon, 20 Jun 2016) | 2 lines
+
+Add scrum meeting.
+
+------------------------------------------------------------------------
+r140 | zhangbr6@UTORONTO.CA | 2016-06-19 22:05:46 -0400 (Sun, 19 Jun 2016) | 2 lines
+
+Added Keywords class.
+Change InputParser to use Keywords.
+------------------------------------------------------------------------
+r139 | zhangbr6@UTORONTO.CA | 2016-06-19 22:05:25 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Added multiple slash test for InputParser.
+------------------------------------------------------------------------
+r138 | zhangbr6@UTORONTO.CA | 2016-06-19 22:05:07 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Fixed DirectoryStackEmpty. Added InvalidArgumentsError.
+------------------------------------------------------------------------
+r137 | zhangbr6@UTORONTO.CA | 2016-06-19 22:04:44 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Added null check for command.
+------------------------------------------------------------------------
+r136 | zhangbr6@UTORONTO.CA | 2016-06-19 22:04:25 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Fixed seperateInnerMostDirectoryFromPath(String) to work with multiple '/'
+------------------------------------------------------------------------
+r135 | zhangbr6@UTORONTO.CA | 2016-06-19 21:58:48 -0400 (Sun, 19 Jun 2016) | 2 lines
+
+Removed Manual keywords. Moved into Keywords class.
+Fixed History implementation.
+------------------------------------------------------------------------
+r134 | zhangbr6@UTORONTO.CA | 2016-06-19 21:57:31 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Remove history.java
+------------------------------------------------------------------------
+r133 | zhangbr6@UTORONTO.CA | 2016-06-19 21:40:17 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Fixed incorrect usage of PathError
+------------------------------------------------------------------------
+r132 | hammoudm@UTORONTO.CA | 2016-06-18 15:59:00 -0400 (Sat, 18 Jun 2016) | 1 line
+
+Forgot to add file in...
+------------------------------------------------------------------------
+r131 | hammoudm@UTORONTO.CA | 2016-06-18 15:58:16 -0400 (Sat, 18 Jun 2016) | 1 line
+
+Added EchoToFile class.
+------------------------------------------------------------------------
+r130 | hammoudm@UTORONTO.CA | 2016-06-18 15:53:59 -0400 (Sat, 18 Jun 2016) | 2 lines
+
+Modified the date of a daily sprint I submitted on a wrong earlier date (from 15 to 17)
+
+------------------------------------------------------------------------
+r129 | hammoudm@UTORONTO.CA | 2016-06-18 15:52:22 -0400 (Sat, 18 Jun 2016) | 1 line
+
+fixing some broken code.
+------------------------------------------------------------------------
+r128 | hammoudm@UTORONTO.CA | 2016-06-18 15:51:30 -0400 (Sat, 18 Jun 2016) | 1 line
+
+Completed history command - commited an error class that wasn't previously commited due to forgetting to add.
+------------------------------------------------------------------------
+r127 | yanjuli1@UTORONTO.CA | 2016-06-17 23:11:09 -0400 (Fri, 17 Jun 2016) | 1 line
+
+added daily scrum
+------------------------------------------------------------------------
+r126 | yanjuli1@UTORONTO.CA | 2016-06-17 23:08:17 -0400 (Fri, 17 Jun 2016) | 1 line
+
+fixed issues with new implementation of errors
+------------------------------------------------------------------------
+r125 | yanjuli1@UTORONTO.CA | 2016-06-17 23:00:45 -0400 (Fri, 17 Jun 2016) | 1 line
+
+removing JSHellError, team member re-implemented Error system
+------------------------------------------------------------------------
+r124 | yanjuli1@UTORONTO.CA | 2016-06-17 22:56:36 -0400 (Fri, 17 Jun 2016) | 2 lines
+
+added manual for pop, push and history
+
+------------------------------------------------------------------------
+r123 | yanjuli1@UTORONTO.CA | 2016-06-17 22:39:29 -0400 (Fri, 17 Jun 2016) | 1 line
+
+added in Manual command
+------------------------------------------------------------------------
+r122 | yanjuli1@UTORONTO.CA | 2016-06-17 22:34:20 -0400 (Fri, 17 Jun 2016) | 1 line
+
+fixed Command base class's getManMessage
+------------------------------------------------------------------------
+r121 | yanjuli1@UTORONTO.CA | 2016-06-17 22:33:33 -0400 (Fri, 17 Jun 2016) | 1 line
+
+Added the method to override for man messages
+------------------------------------------------------------------------
+r120 | zhangbr6@UTORONTO.CA | 2016-06-17 22:25:55 -0400 (Fri, 17 Jun 2016) | 2 lines
+
+Added Scrum meeting June 17.
+Fixed Scrum meeting June 15.
+------------------------------------------------------------------------
+r119 | yanjuli1@UTORONTO.CA | 2016-06-17 22:24:53 -0400 (Fri, 17 Jun 2016) | 1 line
+
+created getManMessage outlines to be filled in
+------------------------------------------------------------------------
+r118 | yanjuli1@UTORONTO.CA | 2016-06-17 22:21:23 -0400 (Fri, 17 Jun 2016) | 1 line
+
+create extra task for Manual
+------------------------------------------------------------------------
+r117 | yanjuli1@UTORONTO.CA | 2016-06-16 18:05:32 -0400 (Thu, 16 Jun 2016) | 1 line
+
+fixed scrum for the mix up in tasks
+------------------------------------------------------------------------
+r116 | zhangbr6@UTORONTO.CA | 2016-06-16 16:51:07 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Missed an else statement.
+------------------------------------------------------------------------
+r115 | zhangbr6@UTORONTO.CA | 2016-06-16 16:50:06 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Modified MakeDirectory to print an error message and to not create directory if the directory already exists.
+------------------------------------------------------------------------
+r114 | zhangbr6@UTORONTO.CA | 2016-06-16 16:41:01 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Modified PathError to be more useful.
+------------------------------------------------------------------------
+r113 | zhangbr6@UTORONTO.CA | 2016-06-16 16:40:30 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added error class for Can't create Directory error.
+------------------------------------------------------------------------
+r112 | zhangbr6@UTORONTO.CA | 2016-06-16 16:17:36 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Seperate Echo class into multiple private functions.
+------------------------------------------------------------------------
+r111 | zhangbr6@UTORONTO.CA | 2016-06-16 05:10:10 -0400 (Thu, 16 Jun 2016) | 2 lines
+
+Added methods to Directory class for seperating inner most directory. Added methods to File class for creating a new File.
+Added Echo to InputParser.
+------------------------------------------------------------------------
+r110 | zhangbr6@UTORONTO.CA | 2016-06-16 05:09:21 -0400 (Thu, 16 Jun 2016) | 3 lines
+
+Implement ls to accept directory and file paths.
+Added Echo command.
+Moved seperateInnerMostDirectory into Directory class.
+------------------------------------------------------------------------
+r109 | zhangbr6@UTORONTO.CA | 2016-06-16 04:34:46 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added more tasks to do.
+------------------------------------------------------------------------
+r108 | zhangbr6@UTORONTO.CA | 2016-06-16 03:58:56 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Made cd simpler by using changeDirectory using path rather than seperate methods for relative/absolute path.
+------------------------------------------------------------------------
+r107 | zhangbr6@UTORONTO.CA | 2016-06-16 00:23:40 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Fixed some formatting
+------------------------------------------------------------------------
+r106 | zhangbr6@UTORONTO.CA | 2016-06-16 00:22:57 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added various error classes.
+------------------------------------------------------------------------
+r105 | hammoudm@UTORONTO.CA | 2016-06-15 17:56:31 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Updated pushdirectory popdirectory to work with new getdirectoryfrompath method in directory.java
+------------------------------------------------------------------------
+r104 | zhangbr6@UTORONTO.CA | 2016-06-15 17:51:12 -0400 (Wed, 15 Jun 2016) | 2 lines
+
+Changed Directory class to simplify code and have a single getDirectoryFromPath() instead of multiple methods for relative/absolute paths.
+Changed mkdir to use new methods.
+------------------------------------------------------------------------
+r103 | hammoudm@UTORONTO.CA | 2016-06-15 17:48:01 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Updated sprint2 backlog
+------------------------------------------------------------------------
+r102 | hammoudm@UTORONTO.CA | 2016-06-15 17:19:02 -0400 (Wed, 15 Jun 2016) | 1 line
+
+fixed an odd duplicated scrum meetin gfile.
+------------------------------------------------------------------------
+r101 | yanjuli1@UTORONTO.CA | 2016-06-15 17:14:06 -0400 (Wed, 15 Jun 2016) | 1 line
+
+removed duplicate method
+------------------------------------------------------------------------
+r100 | hammoudm@UTORONTO.CA | 2016-06-15 16:54:23 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Added my daily sprint for sprint #2
+------------------------------------------------------------------------
+r99 | hammoudm@UTORONTO.CA | 2016-06-15 15:55:28 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Completed pushd and popd commands, along with a related error class.
+------------------------------------------------------------------------
+r98 | yanjuli1@UTORONTO.CA | 2016-06-15 15:41:56 -0400 (Wed, 15 Jun 2016) | 1 line
+
+updated my tasks for Sprint2
+------------------------------------------------------------------------
+r97 | yanjuli1@UTORONTO.CA | 2016-06-15 15:41:40 -0400 (Wed, 15 Jun 2016) | 1 line
+
+added in dailyscrum for June14
+------------------------------------------------------------------------
+r96 | yanjuli1@UTORONTO.CA | 2016-06-15 15:19:58 -0400 (Wed, 15 Jun 2016) | 1 line
+
+added in tasks for me on Sprint2
+------------------------------------------------------------------------
+r95 | zhangbr6@UTORONTO.CA | 2016-06-15 03:59:03 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Changed pwd to use toString() method.
+------------------------------------------------------------------------
+r94 | zhangbr6@UTORONTO.CA | 2016-06-15 03:58:44 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Added pwd keyword to InputParser.
+------------------------------------------------------------------------
+r93 | zhangbr6@UTORONTO.CA | 2016-06-15 03:58:29 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Added tests for InputParser with multiple "/"
+------------------------------------------------------------------------
+r92 | zhangbr6@UTORONTO.CA | 2016-06-15 03:44:13 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Added handling of "." and ".." in Directory path.
+------------------------------------------------------------------------
+r91 | zhangbr6@UTORONTO.CA | 2016-06-15 03:43:53 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Updated DirectoryTest to include tests using "." and ".."
+------------------------------------------------------------------------
+r90 | zhangbr6@UTORONTO.CA | 2016-06-15 03:43:30 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Removed handling of "." and ".." in InputParser. This will be sent in the argument and when trying to get a Directory using the argument, it will be dealt with by Directory class.
+------------------------------------------------------------------------
+r89 | zhangbr6@UTORONTO.CA | 2016-06-15 03:42:12 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Added tasks assigned to me for Sprint 2.
+------------------------------------------------------------------------
+r88 | zhangbr6@UTORONTO.CA | 2016-06-15 03:42:00 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Scrum Meeting for June 15
+------------------------------------------------------------------------
+r87 | chongada@UTORONTO.CA | 2016-06-15 01:43:48 -0400 (Wed, 15 Jun 2016) | 1 line
+
+updated mohamed's tasks
+------------------------------------------------------------------------
+r86 | chongada@UTORONTO.CA | 2016-06-15 01:43:15 -0400 (Wed, 15 Jun 2016) | 1 line
+
+put back some tasks for sprint2 backlog
+------------------------------------------------------------------------
+r85 | hammoudm@UTORONTO.CA | 2016-06-15 01:32:35 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Updated sprint2 backlog.
+------------------------------------------------------------------------
+r84 | hammoudm@UTORONTO.CA | 2016-06-15 01:23:04 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Modified Scrum meeting - forgot to commit in last revision.
+------------------------------------------------------------------------
+r83 | hammoudm@UTORONTO.CA | 2016-06-15 01:22:19 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Small changes to cat command + daily scrum.
+------------------------------------------------------------------------
+r82 | hammoudm@UTORONTO.CA | 2016-06-15 01:21:18 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Completed concatenade command.
+------------------------------------------------------------------------
+r81 | hammoudm@UTORONTO.CA | 2016-06-15 00:48:24 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Added daily sprint - Mohamed.
+------------------------------------------------------------------------
+r80 | hammoudm@UTORONTO.CA | 2016-06-15 00:46:46 -0400 (Wed, 15 Jun 2016) | 1 line
+
+Implemented pwd command.
+------------------------------------------------------------------------
+r79 | chongada@UTORONTO.CA | 2016-06-15 00:20:05 -0400 (Wed, 15 Jun 2016) | 1 line
+
+updated pwd task
+------------------------------------------------------------------------
+r78 | chongada@UTORONTO.CA | 2016-06-15 00:13:03 -0400 (Wed, 15 Jun 2016) | 1 line
+
+added another story and task to sprint2
+------------------------------------------------------------------------
+r77 | yanjuli1@UTORONTO.CA | 2016-06-15 00:11:42 -0400 (Wed, 15 Jun 2016) | 1 line
+
+adjusted errors to use PathError
+------------------------------------------------------------------------
+r76 | yanjuli1@UTORONTO.CA | 2016-06-14 23:54:55 -0400 (Tue, 14 Jun 2016) | 1 line
+
+removed DirectoryNotFoundError, was duplicate error
+------------------------------------------------------------------------
+r75 | chongada@UTORONTO.CA | 2016-06-14 23:49:02 -0400 (Tue, 14 Jun 2016) | 1 line
+
+added a few tasks for sprint2
+------------------------------------------------------------------------
+r74 | chongada@UTORONTO.CA | 2016-06-14 23:42:15 -0400 (Tue, 14 Jun 2016) | 1 line
+
+added some user stories to sprint2
+------------------------------------------------------------------------
+r73 | zhangbr6@UTORONTO.CA | 2016-06-14 23:36:19 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Added fixPath to deal with periods. Will most likely remove this and treat these as arguments and specially handle it in Directory static methods.
+------------------------------------------------------------------------
+r72 | chongada@UTORONTO.CA | 2016-06-14 23:36:07 -0400 (Tue, 14 Jun 2016) | 1 line
+
+first commit of a sprint2backlog file (no significant work done)
+------------------------------------------------------------------------
+r71 | zhangbr6@UTORONTO.CA | 2016-06-14 23:35:12 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Added basic unit tests for cd, Directory and InputParser.
+------------------------------------------------------------------------
+r70 | zhangbr6@UTORONTO.CA | 2016-06-14 23:34:55 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Added "PC:" before outputting current folder.
+------------------------------------------------------------------------
+r69 | zhangbr6@UTORONTO.CA | 2016-06-14 23:34:27 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Added numerous methods for dealing with absolute and relative paths to a directory.
+------------------------------------------------------------------------
+r68 | zhangbr6@UTORONTO.CA | 2016-06-14 23:33:36 -0400 (Tue, 14 Jun 2016) | 2 lines
+
+Removed constructor without JShell parameter.
+Added private method seperateInnerMostDirectoryFromPath(String path)
+------------------------------------------------------------------------
+r67 | zhangbr6@UTORONTO.CA | 2016-06-14 03:22:14 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Major changes to cd, ls, mkdir.
+------------------------------------------------------------------------
+r66 | zhangbr6@UTORONTO.CA | 2016-06-14 03:19:16 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Removing duplicate Exit command with incorrect name.
+------------------------------------------------------------------------
+r65 | zhangbr6@UTORONTO.CA | 2016-06-14 03:17:51 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Some renaming and adding of folder that File is found in.
+------------------------------------------------------------------------
+r64 | zhangbr6@UTORONTO.CA | 2016-06-14 03:17:24 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Modified interface of JShell to be more like command line.
+------------------------------------------------------------------------
+r63 | zhangbr6@UTORONTO.CA | 2016-06-14 03:16:47 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Added fixing of path for arguments of ChangeDirectory.
+------------------------------------------------------------------------
+r62 | zhangbr6@UTORONTO.CA | 2016-06-14 03:16:01 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Added unit tests for ChangeDirectory.
+------------------------------------------------------------------------
+r61 | zhangbr6@UTORONTO.CA | 2016-06-14 02:46:21 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Update Scrum meeting.
+------------------------------------------------------------------------
+r60 | zhangbr6@UTORONTO.CA | 2016-06-14 01:48:42 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Added scrum meeting.
+------------------------------------------------------------------------
+r59 | chongada@UTORONTO.CA | 2016-06-13 20:45:22 -0400 (Mon, 13 Jun 2016) | 1 line
+
+added june 11 sprint for Adam Ah-Chong
+------------------------------------------------------------------------
+r58 | chongada@UTORONTO.CA | 2016-06-13 20:42:47 -0400 (Mon, 13 Jun 2016) | 1 line
+
+fixed implementation of ListSegments printing contents of current directory
+------------------------------------------------------------------------
+r57 | chongada@UTORONTO.CA | 2016-06-13 20:16:45 -0400 (Mon, 13 Jun 2016) | 1 line
+
+added fileName and GetName to File.java
+------------------------------------------------------------------------
+r56 | chongada@UTORONTO.CA | 2016-06-13 19:51:52 -0400 (Mon, 13 Jun 2016) | 1 line
+
+implemented ListSegment printing current directory contents
+------------------------------------------------------------------------
+r55 | chongada@UTORONTO.CA | 2016-06-13 19:38:08 -0400 (Mon, 13 Jun 2016) | 2 lines
+
+added shell to ListSegments constructor arguments
+removed todo from Exit
+------------------------------------------------------------------------
+r54 | chongada@UTORONTO.CA | 2016-06-13 19:15:13 -0400 (Mon, 13 Jun 2016) | 1 line
+
+removed arguments from Exit
+------------------------------------------------------------------------
+r53 | chongada@UTORONTO.CA | 2016-06-13 18:56:55 -0400 (Mon, 13 Jun 2016) | 1 line
+
+added and implemented exit command
+------------------------------------------------------------------------
+r52 | zhangbr6@UTORONTO.CA | 2016-06-13 18:13:11 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Added reading input as part of InputParser.
+------------------------------------------------------------------------
+r51 | zhangbr6@UTORONTO.CA | 2016-06-13 18:12:52 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Added DirectoryNotFoundError.
+------------------------------------------------------------------------
+r50 | zhangbr6@UTORONTO.CA | 2016-06-13 18:12:42 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Changed JShell to continuously print current directory.
+------------------------------------------------------------------------
+r49 | zhangbr6@UTORONTO.CA | 2016-06-13 18:12:03 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Renamed Folder to Directory and Directory to Drive.
+------------------------------------------------------------------------
+r48 | zhangbr6@UTORONTO.CA | 2016-06-13 18:11:43 -0400 (Mon, 13 Jun 2016) | 2 lines
+
+Implemented cd, exit.
+Implemented parts of mkdir.
+------------------------------------------------------------------------
+r47 | zhangbr6@UTORONTO.CA | 2016-06-13 11:47:53 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Added Input parsing for cd, ls and mkdir. No argument checks yet.
+------------------------------------------------------------------------
+r46 | zhangbr6@UTORONTO.CA | 2016-06-13 11:47:14 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Renamed exit to stopRunning.
+------------------------------------------------------------------------
+r45 | zhangbr6@UTORONTO.CA | 2016-06-13 11:45:34 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Added toString method for Directory and Folder.
+------------------------------------------------------------------------
+r44 | zhangbr6@UTORONTO.CA | 2016-06-13 11:45:09 -0400 (Mon, 13 Jun 2016) | 2 lines
+
+Made Command an abstract class.
+Updated commands to have executeCommand and constructor.
+------------------------------------------------------------------------
+r43 | hammoudm@UTORONTO.CA | 2016-06-12 18:16:13 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Added daily scrum meeting for June 11 - Mohamed.
+------------------------------------------------------------------------
+r42 | yanjuli1@UTORONTO.CA | 2016-06-12 01:08:48 -0400 (Sun, 12 Jun 2016) | 1 line
+
+created basic structure for ListSegments
+------------------------------------------------------------------------
+r41 | yanjuli1@UTORONTO.CA | 2016-06-12 00:59:29 -0400 (Sun, 12 Jun 2016) | 2 lines
+
+added base error class
+changed PathError implementation for base class
+------------------------------------------------------------------------
+r40 | yanjuli1@UTORONTO.CA | 2016-06-12 00:50:13 -0400 (Sun, 12 Jun 2016) | 1 line
+
+added daily scrum meeting for June 11
+------------------------------------------------------------------------
+r39 | yanjuli1@UTORONTO.CA | 2016-06-12 00:39:23 -0400 (Sun, 12 Jun 2016) | 1 line
+
+added path error class
+------------------------------------------------------------------------
+r38 | zhangbr6@UTORONTO.CA | 2016-06-11 19:04:35 -0400 (Sat, 11 Jun 2016) | 1 line
+
+Removed Filetype
+------------------------------------------------------------------------
+r37 | zhangbr6@UTORONTO.CA | 2016-06-11 01:09:47 -0400 (Sat, 11 Jun 2016) | 1 line
+
+Added MakeDirectory and inherit from Command.
+------------------------------------------------------------------------
+r36 | zhangbr6@UTORONTO.CA | 2016-06-11 01:08:36 -0400 (Sat, 11 Jun 2016) | 1 line
+
+Added InputParser as a util class.
+------------------------------------------------------------------------
+r35 | zhangbr6@UTORONTO.CA | 2016-06-11 01:08:10 -0400 (Sat, 11 Jun 2016) | 1 line
+
+Started on JShell.
+------------------------------------------------------------------------
+r34 | zhangbr6@UTORONTO.CA | 2016-06-11 01:07:57 -0400 (Sat, 11 Jun 2016) | 1 line
+
+Fixed formatting in Directory and added File.
+------------------------------------------------------------------------
+r33 | zhangbr6@UTORONTO.CA | 2016-06-11 01:07:19 -0400 (Sat, 11 Jun 2016) | 1 line
+
+Added Command and made MakeDirectory inherit from Command.
+------------------------------------------------------------------------
+r32 | zhangbr6@UTORONTO.CA | 2016-06-11 01:04:25 -0400 (Sat, 11 Jun 2016) | 1 line
+
+Added first sprint log.
+------------------------------------------------------------------------
+r31 | chongada@UTORONTO.CA | 2016-06-10 16:29:12 -0400 (Fri, 10 Jun 2016) | 2 lines
+
+added daily scrum
+
+------------------------------------------------------------------------
+r30 | zhangbr6@UTORONTO.CA | 2016-06-10 01:39:17 -0400 (Fri, 10 Jun 2016) | 1 line
+
+Changed FileType constants to be capital.
+------------------------------------------------------------------------
+r29 | hammoudm@UTORONTO.CA | 2016-06-09 19:07:53 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Work for today completed -> Completed Folder as an n-tary tree, File classes. Support added for enum type FileType. Initial implementation of Directory class completed.
+------------------------------------------------------------------------
+r28 | yanjuli1@UTORONTO.CA | 2016-06-09 18:22:06 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Added daily scrum
+------------------------------------------------------------------------
+r27 | chongada@UTORONTO.CA | 2016-06-09 15:46:01 -0400 (Thu, 09 Jun 2016) | 2 lines
+
+Added tasks for Adam in Sprint1
+
+------------------------------------------------------------------------
+r26 | hammoudm@UTORONTO.CA | 2016-06-09 15:38:26 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Added java packages for commands and directoryfilefolders.
+------------------------------------------------------------------------
+r25 | hammoudm@UTORONTO.CA | 2016-06-09 15:35:30 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Forgot to add one more task... -Mohamed.
+------------------------------------------------------------------------
+r24 | yanjuli1@UTORONTO.CA | 2016-06-09 15:33:57 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Added in tasks for Julia Sprint1
+------------------------------------------------------------------------
+r23 | zhangbr6@UTORONTO.CA | 2016-06-09 15:18:07 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Removed VirtualMachine from Collaborator and added reading input from the reader as a responsibility of Shell.
+------------------------------------------------------------------------
+r22 | zhangbr6@UTORONTO.CA | 2016-06-09 15:17:17 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Renamed InputStream to InputParser.
+------------------------------------------------------------------------
+r21 | hammoudm@UTORONTO.CA | 2016-06-09 15:12:40 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Added my daily sprint - Mohamed.
+------------------------------------------------------------------------
+r20 | hammoudm@UTORONTO.CA | 2016-06-09 15:08:47 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Picked my tasks - Mohamed.
+------------------------------------------------------------------------
+r19 | zhangbr6@UTORONTO.CA | 2016-06-09 15:07:02 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Changed my assignments.
+------------------------------------------------------------------------
+r18 | zhangbr6@UTORONTO.CA | 2016-06-09 15:05:31 -0400 (Thu, 09 Jun 2016) | 1 line
+
+Added tasks and assignments for me.
+------------------------------------------------------------------------
+r17 | zhangbr6@UTORONTO.CA | 2016-06-08 16:28:21 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Improved wording for one of the user story
+------------------------------------------------------------------------
+r16 | zhangbr6@UTORONTO.CA | 2016-06-08 16:19:34 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added creating of Folder class as task c-2
+------------------------------------------------------------------------
+r15 | hammoudm@UTORONTO.CA | 2016-06-08 15:55:40 -0400 (Wed, 08 Jun 2016) | 1 line
+
+A few CRCCards were no longer needed: namely VirtualMachine.txt and Commandlog.txt (this is now replaced with History.txt). Small changes done to exit.txt
+------------------------------------------------------------------------
+r14 | zhangbr6@UTORONTO.CA | 2016-06-08 15:45:34 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added Sprint1Backlog. Task assignment left blank for now.
+------------------------------------------------------------------------
+r13 | zhangbr6@UTORONTO.CA | 2016-06-08 15:25:56 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added handling of input parsing to Product Backlog.
+------------------------------------------------------------------------
+r12 | hammoudm@UTORONTO.CA | 2016-06-07 22:52:33 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added initial CRCCards.
+------------------------------------------------------------------------
+r11 | hammoudm@UTORONTO.CA | 2016-06-07 22:35:46 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Updated product backlog with time estimates.
+------------------------------------------------------------------------
+r10 | zhangbr6@UTORONTO.CA | 2016-06-07 21:43:37 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added a few more user stories and increased time estimates.
+------------------------------------------------------------------------
+r9 | zhangbr6@UTORONTO.CA | 2016-06-06 12:10:45 -0400 (Mon, 06 Jun 2016) | 1 line
+
+Filled out Honor Code
+------------------------------------------------------------------------
+r8 | zhangbr6@UTORONTO.CA | 2016-06-06 12:07:37 -0400 (Mon, 06 Jun 2016) | 1 line
+
+Added Product Backlog.
+------------------------------------------------------------------------
+r7 | attarwal@UTORONTO.CA | 2016-06-05 18:55:41 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r6 | attarwal@UTORONTO.CA | 2016-06-05 18:55:40 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r5 | attarwal@UTORONTO.CA | 2016-06-05 18:55:40 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r4 | attarwal@UTORONTO.CA | 2016-06-05 18:55:39 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r3 | attarwal@UTORONTO.CA | 2016-06-05 18:55:39 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r2 | attarwal@UTORONTO.CA | 2016-06-05 18:55:38 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r1 | markus | 2016-06-05 18:21:07 -0400 (Sun, 05 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+
+
+
+Part 3) +++Work Distribution of Team Members+++
++++ON ALL SOURCE FILES+++
+  10 attarwal@U
+ 178 chongada@U
+ 377 hammoudm@U
+ 319 yanjuli1@U
+3273 zhangbr6@U
++++ON CRC CARDS+++
+   9 attarwal@U
+  54 hammoudm@U
+  95 zhangbr6@U
++++ON DAILYSCRUMMEETINGS+++
+  33 attarwal@U
+  14 hammoudm@U
+  16 yanjuli1@U
++++ON PRODUCT BACKLOG +++
+  11 attarwal@U
+  14 hammoudm@U
+  28 zhangbr6@U
++++ON SPRINTS+++
+  68 attarwal@U
+  52 chongada@U
+  19 hammoudm@U
+   7 yanjuli1@U
+  98 zhangbr6@U
+3595
+Part 4) SVN Commits
+
+
+On Sprints
+   1  attarwal@UTORONTO.CA 
+   9  chongada@UTORONTO.CA 
+   5  hammoudm@UTORONTO.CA 
+   5  yanjuli1@UTORONTO.CA 
+   7  zhangbr6@UTORONTO.CA 
+
+
+On CRC Cards
+   1  attarwal@UTORONTO.CA 
+   2  hammoudm@UTORONTO.CA 
+  16  zhangbr6@UTORONTO.CA 
+
+
+On DailyScrumMeetings
+   1  attarwal@UTORONTO.CA 
+   8  chongada@UTORONTO.CA 
+   9  hammoudm@UTORONTO.CA 
+   8  yanjuli1@UTORONTO.CA 
+  14  zhangbr6@UTORONTO.CA 
+
+
+On ProductBacklog
+   1  attarwal@UTORONTO.CA 
+   1  hammoudm@UTORONTO.CA 
+   4  zhangbr6@UTORONTO.CA 
+
+
+On source
+   1  attarwal@UTORONTO.CA 
+  37  chongada@UTORONTO.CA 
+  13  hammoudm@UTORONTO.CA 
+  30  yanjuli1@UTORONTO.CA 
+  96  zhangbr6@UTORONTO.CA 

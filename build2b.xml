@@ -1,0 +1,50 @@
+<project name = "jShell - Group 0286" default = "run" basedir=".">
+	<property name = "src.dir" location = "src" />
+	<property name = "test.dir" location = "src/test" />
+	<property name = "build.dir" location = "bin" />
+	<property name = "junit.dir" location = "libs/junit.jar" />
+	<property name = "hamcrest.dir" location = "libs/hamcrest-core-1.3.jar"/>
+
+	<!-- jUnit classpath depedency -->
+	<path id="junit.class.path">
+		<pathelement location = "${junit.dir}"/>
+		<pathelement location = "${hamcrest.dir}"/>
+		<pathelement location = "${build.dir}" />
+	</path>
+
+	<target name="run" depends="jar">
+	<java classname="driver.JShell" fork="true">
+	<classpath path="../jshell.jar"/>
+	</java>
+	</target>
+
+	<!-- cleans bin -->
+	<target name = "clean">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<!-- compiles code -->
+	<target name ="compile" depends="clean, init">
+		<javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="false">
+			<exclude name="${test.dir}"/>
+			<classpath refid = "junit.class.path" />
+		</javac>
+	</target>
+
+	<!-- builds jar -->
+	<target name = "jar" depends ="compile, junit">
+		<jar destfile="../jshell.jar" basedir="${build.dir}" includes="**/*.class"/>
+	</target>
+
+	<!-- compiles tests -->
+	<target name = "junit">
+		<javac srcdir="${test.dir}" destdir="${build.dir}" includeantruntime="false">
+			<classpath refid = "junit.class.path" />
+		</javac>
+	</target>
+
+	<!-- initializes -->
+	<target name = "init">
+		<mkdir dir ="${build.dir}" />
+	</target>
+</project>
